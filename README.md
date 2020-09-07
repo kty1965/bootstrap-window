@@ -38,3 +38,12 @@ winget install Battle.Net
 ## tfenv install
 
 https://github.com/tfutils/tfenv
+
+## Git eol Settings
+
+Visual Studio Code 혹은 Editor 에서 eol 설정이 `crlf`(default windoe) `lf`(default mac, linux) `lf`로 셋팅 필요
+
+```bash
+ git config --global core.eol lf
+ git config --global core.autocrlf false
+ ```
