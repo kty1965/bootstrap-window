@@ -18,15 +18,16 @@ winget install "Sublime Text"
 winget install "TunnelBear"
 winget install "Markdown Monster"
 winget install vim
+winget install --id GitHub.cli
+winget install -e --id Git.Git
+winget install -e --id GitHub.GitHubDesktop
+winget install Microsoft.WindowsTerminal
 ```
 
-아직 확인 필요
+Programming Language
 
 ```bash
-winget install Git
-winget install "GitHub Desktop"
-winget install Ruby
-winget install sbt
+winget install -e --id RubyInstallerTeam.Ruby
 ```
 
 Game
